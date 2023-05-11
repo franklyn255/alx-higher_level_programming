@@ -1,24 +1,27 @@
 #!/usr/bin/python3
 
-a = 10
-b = 5
+if __name__ == "__main__":
+	a = 10
+	b = 5
+	from calculator_1 import add
 
-from calculator_1 import add
+	result = add(a, b)
+	print("{} + {} = {}".format(a, b, result))
 
-result = add(a, b)
-print("{} + {} = {}".format(a, b, result))
+if __name__ == "__main__":
+	from calculator_1 import sub
 
-from calculator_1 import sub
+	result = sub(a, b)
+	print("{} + {} = {}".format(a, b, result))
 
-result = sub(a, b)
-print("{} + {} = {}".format(a, b, result))
+if __name__ == "__main__":
+	from calculator_1 import mul
 
-from calculator_1 import mul
+	result = mul(a, b)
+	print("{} + {} = {}".format(a, b, result))
 
-result = mul(a, b)
-print("{} + {} = {}".format(a, b, result))
+if __name__ == "__main__":
+	from calculator_1 import div
 
-from calculator_1 import div
-
-result = div(a, b)
-print("{} + {} = {}".format(a, b, result))
+	result = div(a, b)
+	print("{} + {} = {}".format(a, b, result))
