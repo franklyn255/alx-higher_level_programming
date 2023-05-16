@@ -24,14 +24,14 @@ int is_palindrome(listint_t **head)
 	}
 	while (node)
 	{
-		values[i] = node->n;
+		value[i] = node->n;
 		node = node->next;
 		i++;
 	}
 	i--;
 	while (i >= 0 && c <= i)
 	{
-		if (values[i] != values[c])
+		if (value[i] != value[c])
 		{
 			return (0);
 		}
