@@ -12,7 +12,7 @@ BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 class Square(BaseGeometry):
     """
-    A Square class shape, inheirts from BaseGeometry
+    Square class shape, inheirts from BaseGeometry
     """
     def __init__(self, size):
         """"
